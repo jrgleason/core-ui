@@ -1,0 +1,30 @@
+{
+  "name": "@jrg/core-ui",
+  "version": "0.0.21",
+  "description": "",
+  "main": "dist/index.mjs",
+  "src": "index.mjs",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "publish": "npm version patch && git push",
+    "build": "node --experimental-json-modules ./node_modules/.bin/rollup --config rollup.config.mjs",
+    "run-doc": "jsdoc --debug ./src/jrg-base-element.mjs -c ./jsdoc.conf.json",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --fix --ext mjs",
+    "publish:patch": "npm run build && npm publish --access public && npm version patch",
+    "upload": "npm publish --access public && npm version patch"
+  },
+  "author": "Jackie Gleason",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@jrg-material/build": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "jsdoc": "latest",
+    "jsdoc-md": "latest",
+    "lerna": "latest",
+    "rollup": "latest",
+    "minimist": "latest",
+    "rollup-plugin-string": "latest"
+  }
+}
