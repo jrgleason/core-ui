@@ -15,16 +15,19 @@
     "upload": "npm publish --access public && npm version patch"
   },
   "author": "Jackie Gleason",
-  "license": "Apache-2.0",
+  "license": "GPL",
   "devDependencies": {
-    "@jrg-material/build": "latest",
+    "@jrg/rollup-sass-shadow": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
     "jsdoc": "latest",
     "jsdoc-md": "latest",
     "lerna": "latest",
-    "rollup": "latest",
     "minimist": "latest",
+    "rollup": "latest",
     "rollup-plugin-string": "latest"
+  },
+  "dependencies": {
+    "@material/top-app-bar": "^13.0.0"
   }
 }
