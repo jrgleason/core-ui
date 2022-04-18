@@ -1,0 +1,23 @@
+<mwc-top-app-bar-fixed centerTitle>
+    {{#menu}}
+    <mwc-icon-button
+            icon="menu"
+            slot="navigationIcon"></mwc-icon-button>
+    {{/menu}}
+
+    <div slot="title" class="jrg-header-title">
+        <strong>THE</strong>
+        <span> Jackie R. Gleason</span>
+    </div>
+    <mwc-button
+            class="jrg-resume-button"
+            label="Resume"
+            slot="actionItems"
+            onclick="window.location.href='https://docs.google.com/document/d/1xrqve90hloOYGR3RSCvwXJBXq_NQR5kmNfrxKYSveKk'"
+    ></mwc-button>
+    <a href="https://www.linkedin.com/in/jackie-gleason-5a52114/" slot="actionItems">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/jrgleason"  slot="actionItems"><i class="fab fa-github"></i></a>
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@5.15.1/css/all.css">
+</mwc-top-app-bar-fixed>
