@@ -2,11 +2,6 @@
     font-family: 'Quantico', sans-serif;
     font-weight: bold;
     font-size: xx-large;
-    text-shadow: -1px 1px 2px #666666,
-    1px 1px 2px #666666,
-    1px -1px 0 #666666,
-    -1px -1px 0 #666666;
-    letter-spacing: 4px;
 }
 @media screen and (max-width: 599px) {
     .jrg-header-title{
