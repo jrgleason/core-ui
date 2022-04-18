@@ -1,6 +1,7 @@
 import { Base } from "../../Base.mjs";
 import template from "./component.html"
 import style from "./style.css"
+import Icon from '@mui/material/Icon';
 
 class TopBarFixed extends Base{
     constructor() {
