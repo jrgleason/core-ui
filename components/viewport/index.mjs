@@ -1,6 +1,6 @@
 import { CREATE_ELEMENT, ShadowElement } from '../../ShadowElement.mjs';
-import templateFn from './index.template.html';
-import style from './index.style.scss';
+import templateFn from './template.html';
+import style from './style.scss';
 
 
 class Viewport extends ShadowElement {

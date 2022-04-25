@@ -1,24 +1,12 @@
-.jrg-header-title{
+.top-bar{
+    display: flex;
     font-family: 'Quantico', sans-serif;
     font-weight: bold;
     font-size: xx-large;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 4px;
 }
-@media screen and (max-width: 599px) {
-    .jrg-header-title{
-        display:none;
-    }
-}
-.action-item{
-    font-family: 'Font Awesome 5 Brands', sans-serif;
-}
-i {
-    color:white;
-    font-weight: bold;
-    font-size: x-large;
-    padding: 0 6px;
-    cursor: pointer;
-}
-.jrg-resume-button{
-    --mdc-theme-primary: white;
-    --mdc-button-raised-box-shadow-hover: #666666;
+.top-bar > * {
+    margin: 0 4px;
 }
