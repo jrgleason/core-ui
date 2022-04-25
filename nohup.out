@@ -1,0 +1,124 @@
+
+> @jrg/core-ui@0.0.32 build:watch
+> node --experimental-json-modules ./node_modules/.bin/rollup -w --config rollup.config.mjs
+
+(node:84966) ExperimentalWarning: Importing JSON modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[4mrollup v2.70.2[24m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m103ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m56ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m53ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m52ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m49ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m49ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m52ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m54ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m51ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m51ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m51ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m49ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m55ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m51ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m47ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m51ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m49ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m50ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m49ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m52ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[32mcreated [1mdist/index.mjs[22m in [1m48ms[22m[39m
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+
+[36mbundles [1mindex.mjs[22m → [1mdist/index.mjs[22m...[39m
+[1m[31m[!] [1mError: Could not resolve './style.css' from components/MainViewArea/index.mjs[22m[1m[39m[22m
+[2mError: Could not resolve './style.css' from components/MainViewArea/index.mjs
+    at error (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:198:30)
+    at ModuleLoader.handleResolveId (/Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22461:24)
+    at /Users/jackiegleason/Code/personal/core-ui/node_modules/rollup/dist/shared/rollup.js:22424:26[22m
+

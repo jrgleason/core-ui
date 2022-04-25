@@ -8,6 +8,7 @@
   "scripts": {
     "publish": "npm version patch && git push",
     "build": "node --experimental-json-modules ./node_modules/.bin/rollup --config rollup.config.mjs",
+    "build:watch": "node --experimental-json-modules ./node_modules/.bin/rollup -w --config rollup.config.mjs",
     "run-doc": "jsdoc --debug ./src/jrg-base-element.mjs -c ./jsdoc.conf.json",
     "clean": "rm -rf dist",
     "lint": "eslint src --fix --ext mjs",
