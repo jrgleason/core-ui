@@ -1,2 +1,4 @@
 out
 dist
+build
+rollup.config.mjs

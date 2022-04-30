@@ -1,5 +1,5 @@
 import commonjs from '@rollup/plugin-commonjs';
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+import {nodeResolve} from '@rollup/plugin-node-resolve';
 import rollupString from 'rollup-plugin-string';
 import SassShadow from '@jrg/rollup-sass-shadow';
 
@@ -16,9 +16,10 @@ export class JRGBuild {
     ];
   }
   get mjs() {
+    const plugins = this.basePlugins.concat([nodeResolve()]);
     return {
       input: this.pkg.src,
-      plugins: this.basePlugins,
+      plugins,
       external: ['ms'],
       output: [
         {

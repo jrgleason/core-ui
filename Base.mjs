@@ -12,27 +12,27 @@ export class Base extends HTMLElement {
     this.styleElement.className = 'jrg-styles';
   }
 
-  get template(){
+  get template() {
     const element = document.createElement('template');
     element.innerHTML = Mustache.render(this.html, this);
     return element.content.cloneNode(true);
   }
 
-  set template(html){
+  set template(html) {
     this.html = html;
   }
 
-  addStyle(style, name="main"){
+  addStyle(style, name='main') {
     this.styleNames.push(name);
     this.styles[name] = style;
   }
 
-  renderStyle(name){
+  renderStyle(name) {
     const style = this.styles[name];
     const element = document.createElement('style');
-    if(style == null){
-        console.error(`Style was not found ${name}`);
-        return;
+    if (style == null) {
+      console.error(`Style was not found ${name}`);
+      return;
     }
     element.textContent = Mustache.render(style, this);
     return element;
@@ -53,7 +53,7 @@ export class Base extends HTMLElement {
     */
   render() {
     this.shadowRoot.innerHTML='';
-    const styleElem = this.renderStyles();
+    this.renderStyles();
     this.shadowRoot.appendChild(this.template);
     this.shadowRoot.appendChild(this.styleElement);
   }

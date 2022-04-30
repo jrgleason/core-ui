@@ -11,7 +11,7 @@
     "build:watch": "node --experimental-json-modules ./node_modules/.bin/rollup -w --config rollup.config.mjs",
     "run-doc": "jsdoc --debug ./src/jrg-base-element.mjs -c ./jsdoc.conf.json",
     "clean": "rm -rf dist",
-    "lint": "eslint src --fix --ext mjs",
+    "lint": "eslint '**/*.mjs' --fix",
     "publish:patch": "npm run build && npm publish --access public && npm version patch",
     "upload": "npm publish --access public && npm version patch"
   },
@@ -19,8 +19,14 @@
   "license": "GPL",
   "devDependencies": {
     "@jrg/rollup-sass-shadow": "latest",
+    "@material/mwc-button": "latest",
+    "@material/mwc-icon-button": "latest",
+    "@material/mwc-top-app-bar-fixed": "^0.25.3",
+    "@material/top-app-bar": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0",
     "jsdoc": "latest",
     "jsdoc-md": "latest",
     "lerna": "latest",
@@ -29,9 +35,8 @@
     "rollup-plugin-string": "latest"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@material/top-app-bar": "^13.0.0",
-    "@mui/material": "^5.6.2"
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest"
   }
 }
