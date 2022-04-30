@@ -1,0 +1,15 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.mjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material/mwc-top-app-bar-fixed": "^0.25.3",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

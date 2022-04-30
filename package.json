@@ -1,0 +1,42 @@
+{
+  "name": "@jrg/core-ui",
+  "version": "0.0.32",
+  "description": "",
+  "main": "dist/index.mjs",
+  "src": "index.mjs",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "publish": "npm version patch && git push",
+    "build": "node --experimental-json-modules ./node_modules/.bin/rollup --config rollup.config.mjs",
+    "build:watch": "node --experimental-json-modules ./node_modules/.bin/rollup -w --config rollup.config.mjs",
+    "run-doc": "jsdoc --debug ./src/jrg-base-element.mjs -c ./jsdoc.conf.json",
+    "clean": "rm -rf dist",
+    "lint": "eslint '**/*.mjs' --fix",
+    "publish:patch": "npm run build && npm publish --access public && npm version patch",
+    "upload": "npm publish --access public && npm version patch"
+  },
+  "author": "Jackie Gleason",
+  "license": "GPL",
+  "devDependencies": {
+    "@jrg/rollup-sass-shadow": "latest",
+    "@material/mwc-button": "latest",
+    "@material/mwc-icon-button": "latest",
+    "@material/mwc-top-app-bar-fixed": "^0.25.3",
+    "@material/top-app-bar": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0",
+    "jsdoc": "latest",
+    "jsdoc-md": "latest",
+    "lerna": "latest",
+    "minimist": "latest",
+    "rollup": "latest",
+    "rollup-plugin-string": "latest"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest"
+  }
+}

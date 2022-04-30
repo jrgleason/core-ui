@@ -1,0 +1,15 @@
+name: Basic feature, bug, or chore
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'bug/**'
+      - 'chore/**'
+jobs:
+  build:
+    name: Build the module
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout App
+        uses: actions/checkout@v2

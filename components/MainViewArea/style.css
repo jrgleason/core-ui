@@ -1,0 +1,11 @@
+
+.main{
+    height: calc( 100% - 20px );
+    background-color: green;
+}
+:host,.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+}
