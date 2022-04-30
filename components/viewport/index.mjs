@@ -1,4 +1,4 @@
-import { CREATE_ELEMENT, ShadowElement } from '../../ShadowElement.mjs';
+import {CREATE_ELEMENT, ShadowElement} from '../../ShadowElement.mjs';
 import templateFn from './template.html';
 import style from './style.scss';
 

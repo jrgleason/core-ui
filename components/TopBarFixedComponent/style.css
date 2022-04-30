@@ -1,12 +1,1 @@
-.top-bar{
-    display: flex;
-    font-family: 'Quantico', sans-serif;
-    font-weight: bold;
-    font-size: xx-large;
-    justify-content: left;
-    align-items: center;
-    padding: 20px 4px;
-}
-.top-bar > * {
-    margin: 0 4px;
-}
+
